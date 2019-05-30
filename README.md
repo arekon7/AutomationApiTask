@@ -1,6 +1,6 @@
 Setup and Run Instructions 
 
-1. Download source code from GitLab: 
+1. Download source code from GitLab: https://github.com/arekon7/SEBAutomationApiTask.git
 2. Open "SEBAutomationApiTask" Project with IntelliJ or simmilar IDE
 3. In directory "./src/main/java/com/apitesting/" are located: TestData, BaseClass, common parameters, methods, reporting classes, messages
 4. In directory "./src/test/java/com.qa.rest.tests./" is located test suite "GetWeatherDataTest.java" with several test cases.
