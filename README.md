@@ -1,4 +1,4 @@
-Setup and Run Instruction 
+Setup and Run Instructions 
 
 1. Download source code from GitLab: 
 2. Open "SEBAutomationApiTask" Project with IntelliJ or simmilar IDE
