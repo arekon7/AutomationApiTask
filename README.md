@@ -1,7 +1,11 @@
+**API Test automation task**
+
+Target API: http://openweathermap.org/current
+
 Setup and Run Instructions 
 
 1. Download source code from GitLab: https://github.com/arekon7/AutomationApiTask
-2. Open "SEBAutomationApiTask" Project with IntelliJ or simmilar IDE
+2. Open "AutomationApiTask" Project with IntelliJ or simmilar IDE
 3. In directory "./src/main/java/com/apitesting/" are located: TestData, BaseClass, common parameters, methods, reporting classes, messages
 4. In directory "./src/test/java/com.qa.rest.tests./" is located test suite "GetWeatherDataTest.java" with test cases.
 5. In order to run tests Maven dependencies in "./pom.xml" should be synchronized 
@@ -27,4 +31,4 @@ By Test cases are covered:
 These areas were chosen to cover because this is main functionality of current API.
 Some tests (test data) are intentionally designed to fail.
 
-Target API: http://openweathermap.org/current
+
