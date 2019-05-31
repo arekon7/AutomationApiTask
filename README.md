@@ -2,20 +2,6 @@
 
 Target API: http://openweathermap.org/current
 
-Setup and Run Instructions 
-
-1. Download source code from GitLab: https://github.com/arekon7/AutomationApiTask
-2. Open "AutomationApiTask" Project with IntelliJ or simmilar IDE
-3. In directory "./src/main/java/com/apitesting/" are located: TestData, BaseClass, common parameters, methods, reporting classes, messages
-4. In directory "./src/test/java/com.qa.rest.tests./" is located test suite "GetWeatherDataTest.java" with test cases.
-5. In order to run tests Maven dependencies in "./pom.xml" should be synchronized 
-
-Run Tests
-1. Open test suite (GetWeatherDataTest.java)
-2. Run "GetWeatherDataTest" to run all test cases
-3. You can also run each test case separately
-4. After test run Extent report is generated in: "./test-report/TestReport.html".
-
 Mini Framework was created using Java language and REST Assured, JUnit, TestNG libraries. 
 The goal of the framework is to speed up development of tests and validation of APIs by abstracting repetitive code and standardizing calls for easier functional and end-to-end testing across micro-services. 
 
@@ -32,5 +18,21 @@ By Test cases are covered:
 
 These areas were chosen to cover because this is main basic functionality of current API.
 Some tests (test data) are intentionally designed to fail.
+
+Setup and Run Instructions 
+
+1. Download source code from GitLab: https://github.com/arekon7/AutomationApiTask
+2. Open "AutomationApiTask" Project with IntelliJ or simmilar IDE
+3. In directory "./src/main/java/com/apitesting/" are located: TestData, BaseClass, common parameters, methods, reporting classes, messages
+4. In directory "./src/test/java/com.qa.rest.tests./" is located test suite "GetWeatherDataTest.java" with test cases.
+5. In order to run tests Maven dependencies in "./pom.xml" should be synchronized 
+
+Run Tests
+1. Open test suite (GetWeatherDataTest.java)
+2. Run "GetWeatherDataTest" to run all test cases
+3. You can also run each test case separately
+4. After test run Extent report is generated in: "./test-report/TestReport.html".
+
+
 
 
