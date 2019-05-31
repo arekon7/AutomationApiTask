@@ -1,16 +1,16 @@
 Setup and Run Instructions 
 
-1. Download source code from GitLab: https://github.com/arekon7/SEBAutomationApiTask.git
+1. Download source code from GitLab: https://github.com/arekon7/AutomationApiTask
 2. Open "SEBAutomationApiTask" Project with IntelliJ or simmilar IDE
 3. In directory "./src/main/java/com/apitesting/" are located: TestData, BaseClass, common parameters, methods, reporting classes, messages
-4. In directory "./src/test/java/com.qa.rest.tests./" is located test suite "GetWeatherDataTest.java" with several test cases.
-5. In order to run tests all Maven dependencies in "./pom.xml" should be synchronized 
+4. In directory "./src/test/java/com.qa.rest.tests./" is located test suite "GetWeatherDataTest.java" with test cases.
+5. In order to run tests Maven dependencies in "./pom.xml" should be synchronized 
 
 Run Tests
 1. Open test suite (GetWeatherDataTest.java)
 2. Run "GetWeatherDataTest" to run all test cases
 3. You can also run each test case separately
-4. After test run report is generated in: "./test-report/TestReport.html".
+4. After test run Extent report is generated in: "./test-report/TestReport.html".
 
 Mini Framework was created using Java language and REST Assured, JUnit, TestNG libraries. 
 By Test cases are covered:
@@ -22,6 +22,7 @@ By Test cases are covered:
 * Response body structure validation
 * API key validation
 * Measurement units validation
+
 
 These areas were chosen to cover because this is main functionality of current API.
 Some tests (test data) are intentionally designed to fail.
