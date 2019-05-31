@@ -18,6 +18,7 @@ Run Tests
 
 Mini Framework was created using Java language and REST Assured, JUnit, TestNG libraries. 
 The goal of the framework is to speed up development of tests and validation of APIs by abstracting repetitive code and standardizing calls for easier functional and end-to-end testing across micro-services. 
+
 By Test cases are covered:
 * Validation of status codes (200,400,401,404)
 * Validation of response types (JSON, XML, HTML) 
@@ -29,7 +30,7 @@ By Test cases are covered:
 * Measurement units validation
 
 
-These areas were chosen to cover because this is main functionality of current API.
+These areas were chosen to cover because this is main basic functionality of current API.
 Some tests (test data) are intentionally designed to fail.
 
 
