@@ -17,6 +17,7 @@ Run Tests
 4. After test run Extent report is generated in: "./test-report/TestReport.html".
 
 Mini Framework was created using Java language and REST Assured, JUnit, TestNG libraries. 
+The goal of the framework is to speed development of tests and validation of APIs by abstracting repetitive code and standardizing calls for easier functional and end-to-end testing across micro-services. 
 By Test cases are covered:
 * Validation of status codes (200,400,401,404)
 * Validation of response types (JSON, XML, HTML) 
