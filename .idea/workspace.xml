@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e502d690-a51c-473d-9690-b6b4504f67ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/rest/tests/GetWeatherDataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/rest/tests/GetWeatherDataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apitesting/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apitesting/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/rest/tests/GetWeatherDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/rest/tests/GetWeatherDataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-report/TestReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/TestReport.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,22 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/BaseClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/CommonMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+            <state relative-caret-position="380">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,28 +56,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/ExtentManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/Messages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="440">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -95,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/rest/tests/GetWeatherDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="95" column="62" lean-forward="true" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
+            <state relative-caret-position="49">
+              <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,10 +77,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/ExtentTestManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/ExtentManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/ExtentTestManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/BaseClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,10 +152,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/qa/rest/tests/GetWeatherData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apitesting/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apitesting/CommonMethods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/apitesting/Messages.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apitesting/CommonParams.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apitesting/ExtentManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apitesting/TestData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apitesting/Messages.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/rest/tests/GetWeatherDataTest.java" />
       </list>
     </option>
@@ -189,10 +184,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,6 +195,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,8 +260,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,6 +329,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetWeatherDataTest.MeasurementUnits" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SEBAutomationApiTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.rest.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.rest.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.rest.tests.GetWeatherDataTest" />
+      <option name="METHOD_NAME" value="MeasurementUnits" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetWeatherDataTest.invalidApiKey" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SEBAutomationApiTask" />
       <extension name="coverage">
@@ -388,31 +401,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetWeatherDataTest.verifyIdLocationMatch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SEBAutomationApiTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qa.rest.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qa.rest.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.rest.tests.GetWeatherDataTest" />
-      <option name="METHOD_NAME" value="verifyIdLocationMatch" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.GetWeatherDataTest" />
-        <item itemvalue="TestNG.GetWeatherDataTest.verify404status" />
-        <item itemvalue="TestNG.GetWeatherDataTest.invalidApiKey" />
         <item itemvalue="TestNG.GetWeatherDataTest.verify400status" />
-        <item itemvalue="TestNG.GetWeatherDataTest.verifyIdLocationMatch" />
+        <item itemvalue="TestNG.GetWeatherDataTest.verify404status" />
+        <item itemvalue="TestNG.GetWeatherDataTest.MeasurementUnits" />
+        <item itemvalue="TestNG.GetWeatherDataTest.invalidApiKey" />
       </list>
     </recent_temporary>
   </component>
@@ -430,34 +425,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetWeatherDataTest_verify400status - 2019.05.30 at 23h 58m 52s.xml">
+    <history-entry file="GetWeatherDataTest_verify400status - 2019.06.01 at 23h 27m 32s.xml">
       <configuration name="GetWeatherDataTest.verify400status" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetWeatherDataTest_verify400status - 2019.05.31 at 00h 00m 16s.xml">
+    <history-entry file="GetWeatherDataTest_verify400status - 2019.06.01 at 23h 30m 00s.xml">
       <configuration name="GetWeatherDataTest.verify400status" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetWeatherDataTest_invalidApiKey - 2019.05.31 at 00h 01m 29s.xml">
-      <configuration name="GetWeatherDataTest.invalidApiKey" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GetWeatherDataTest_verify404status - 2019.05.31 at 00h 04m 30s.xml">
+    <history-entry file="GetWeatherDataTest_verify404status - 2019.06.01 at 23h 30m 47s.xml">
       <configuration name="GetWeatherDataTest.verify404status" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetWeatherDataTest_verify404status - 2019.05.31 at 00h 05m 07s.xml">
+    <history-entry file="GetWeatherDataTest_verify404status - 2019.06.01 at 23h 31m 32s.xml">
       <configuration name="GetWeatherDataTest.verify404status" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetWeatherData - 2019.05.31 at 00h 05m 11s.xml">
+    <history-entry file="GetWeatherDataTest_verify404status - 2019.06.01 at 23h 32m 38s.xml">
+      <configuration name="GetWeatherDataTest.verify404status" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GetWeatherDataTest_verify404status - 2019.06.02 at 00h 31m 55s.xml">
+      <configuration name="GetWeatherDataTest.verify404status" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GetWeatherData - 2019.06.02 at 00h 32m 07s.xml">
       <configuration name="GetWeatherData" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetWeatherDataTest - 2019.05.31 at 00h 05m 42s.xml">
+    <history-entry file="GetWeatherDataTest - 2019.06.02 at 00h 32m 39s.xml">
       <configuration name="GetWeatherDataTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetWeatherDataTest - 2019.05.31 at 00h 15m 37s.xml">
-      <configuration name="GetWeatherDataTest" configurationId="TestNG" />
+    <history-entry file="GetWeatherDataTest_verify400status - 2019.06.02 at 00h 35m 25s.xml">
+      <configuration name="GetWeatherDataTest.verify400status" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetWeatherDataTest - 2019.05.31 at 00h 44m 53s.xml">
-      <configuration name="GetWeatherDataTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GetWeatherDataTest - 2019.05.31 at 02h 13m 03s.xml">
+    <history-entry file="GetWeatherDataTest - 2019.06.02 at 00h 36m 00s.xml">
       <configuration name="GetWeatherDataTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -471,9 +466,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10067114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,14 +478,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4305949" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5070422" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7223796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.24929178" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.2181303" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.31444758" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
@@ -500,6 +496,21 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ApiTestAutomationTask" />
+    </ignored-roots>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -563,23 +574,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-report/TestReport.html">
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/AutomationApiTask-master/SEBAutomationApiTask.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-report/TestReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2460" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/Messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
+        <state relative-caret-position="500">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/CommonParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/CommonMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+        <state relative-caret-position="380">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -593,48 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/CommonParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/Messages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apitesting/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/rest/tests/GetWeatherDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="95" column="62" lean-forward="true" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
+        <state relative-caret-position="49">
+          <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

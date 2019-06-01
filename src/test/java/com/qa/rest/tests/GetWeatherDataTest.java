@@ -31,7 +31,7 @@ public class GetWeatherDataTest extends BaseClass {
         String readableResponse = response.extract().asString();
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case: " + BaseClass.getMethodName());
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Data: "+latitude+", "+longtitude);
-        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : " + readableResponse);
+        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : "+readableResponse);
 
         response.statusCode(TestData.statusCode200);    // validate status code 200
         ExtentTestManager.getTest().log(LogStatus.INFO, msg.stat200okMsg);
@@ -54,15 +54,15 @@ public class GetWeatherDataTest extends BaseClass {
         RestAssured.baseURI = params.getBaseURI();
         ValidatableResponse response = RestAssured.
                 given().
-                    param("id", location_id).
-                    param("appid", params.getApiKey()).
+                param("id", location_id).
+                param("appid", params.getApiKey()).
                 when()
                 .get().then();
 
         String readableResponse = response.extract().asString();
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case: "+BaseClass.getMethodName());
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Data: "+location+", "+location_id);
-        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : " + readableResponse);
+        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : "+readableResponse);
 
         response.statusCode(TestData.statusCode200);    // validate status code 200
         ExtentTestManager.getTest().log(LogStatus.INFO, msg.stat200okMsg);
@@ -96,7 +96,7 @@ public class GetWeatherDataTest extends BaseClass {
         String readableResponse = response.extract().asString();
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case: "+BaseClass.getMethodName());
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Data: "+location);
-        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : " + readableResponse);
+        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : "+readableResponse);
 
         response.statusCode(TestData.statusCode200);    // validate status code 200
         ExtentTestManager.getTest().log(LogStatus.INFO, msg.stat200okMsg);
@@ -125,7 +125,7 @@ public class GetWeatherDataTest extends BaseClass {
         String readableResponse = response.extract().asString();
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case: "+BaseClass.getMethodName());
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Data: "+location);
-        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : " + readableResponse);
+        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : "+readableResponse);
 
         response.statusCode(TestData.statusCode200);
         ExtentTestManager.getTest().log(LogStatus.INFO, msg.stat200okMsg);
@@ -151,7 +151,7 @@ public class GetWeatherDataTest extends BaseClass {
         String readableResponse = response.extract().asString();
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case: "+BaseClass.getMethodName());
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Data: "+location);
-        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : " + readableResponse);
+        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : "+readableResponse);
 
         response.statusCode(TestData.statusCode200);
         ExtentTestManager.getTest().log(LogStatus.INFO, msg.stat200okMsg);
@@ -177,7 +177,7 @@ public class GetWeatherDataTest extends BaseClass {
         String readableResponse = response.extract().asString();
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case: "+BaseClass.getMethodName());
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Data: "+mode);
-        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : " + readableResponse);
+        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : "+readableResponse);
 
         response.statusCode(TestData.statusCode401);
         ExtentTestManager.getTest().log(LogStatus.INFO, msg.stat401okMsg);
@@ -203,7 +203,7 @@ public class GetWeatherDataTest extends BaseClass {
         String readableResponse = response.extract().asString();
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case: "+BaseClass.getMethodName());
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Data: "+units);
-        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : " + readableResponse);
+        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : "+readableResponse);
 
         response.statusCode(TestData.statusCode200);
         ExtentTestManager.getTest().log(LogStatus.INFO, msg.stat200okMsg);
@@ -220,10 +220,13 @@ public class GetWeatherDataTest extends BaseClass {
                 .get().then();
         String readableResponse = response.extract().asString();
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case: "+BaseClass.getMethodName());
-        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : " + readableResponse);
+        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : "+readableResponse);
 
         response.statusCode(TestData.statusCode400);
         ExtentTestManager.getTest().log(LogStatus.INFO, msg.stat400okMsg);
+
+        response.body("message", Matchers.containsStringIgnoringCase("Nothing to geocode"));
+        ExtentTestManager.getTest().log(LogStatus.INFO, "(Nothing to geocode) message OK");
     }
 
     /* verify 404 (Not Found) Status */
@@ -238,10 +241,14 @@ public class GetWeatherDataTest extends BaseClass {
                 .get().then();
         String readableResponse = response.extract().asString();
         ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case: "+BaseClass.getMethodName());
-        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : " + readableResponse);
+        ExtentTestManager.getTest().log(LogStatus.INFO, "Response : "+readableResponse);
 
         response.statusCode(TestData.statusCode404);
         ExtentTestManager.getTest().log(LogStatus.INFO, msg.stat404okMsg);
+
+        response.body("message", Matchers.containsStringIgnoringCase("city not found"));
+        ExtentTestManager.getTest().log(LogStatus.INFO, "(city not found) message OK");
+
     }
 
 
